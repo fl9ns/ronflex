@@ -25,3 +25,8 @@ UUID=<ID> /mnt/ronflex ext4 defaults,nofail 0 2
 ```bash
 mount -a
 ```
+
+#### VPN
+```bash
+apt install wireguard resolvconf iptables-persistent -y
+```

@@ -30,3 +30,8 @@ mount -a
 ```bash
 apt install wireguard resolvconf iptables-persistent -y
 ```
+```bash
+mv /chemin/vers/votre_fichier.conf /etc/wireguard/wg0.conf
+chmod 600 /etc/wireguard/wg0.conf
+systemctl enable --now wg-quick@wg0
+```
